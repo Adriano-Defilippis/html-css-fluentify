@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: lightgrey;
+}
+
+header{
+  /* width: 100%; */
+  height: 500px;
+  background-color: white;
+}
+
+.content{
+  background-color: greenyellow;
+}
+
+section{
+  height: 250px;
+  background: red;
+  border-bottom: 1px solid black;
+}
+
+
+.colonne{
+  float: left;
+  width: 33%;
+  height: 200px;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+  height: 300px;
+  background: blue;
+}
