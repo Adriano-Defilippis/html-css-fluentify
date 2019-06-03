@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -17,6 +18,15 @@ header{
   background-color: greenyellow;
 }
 
+.layout-3colonne .colonne{
+  width: 33%;
+}
+
+.layout-2colonne .colonne{
+  width: 50%;
+}
+
+
 section{
   /* height: 250px; */
   background: red;
@@ -30,48 +40,7 @@ section::after{
 }
 
 .row{
-  /* margin: 0 auto; */
-}
-
-.grey-block{
-  height: 100px;
-  background-color: lightgrey;
-  text-align: center;
-}
-
-
-
-.centratura-title h4{
-  line-height: 50px;
-}
-
-.secondo-blocco .colonne .blocco-img #img-profile, #img-computer, #img-doc{
-  height: 150px;
-  width: auto;
-}
-
-
-.colonne{
-  float: left;
-  width: 33%;
-  /* height: 200px; */
-  background-color: brown;
-  border: 1px solid black;
-}
-
-.colonne .blocco-img{
-  /* width: 100px; */
-  /* height: 100px; */
-}
-
-
-
-.colonne .blocco-hiperlink{
-  border-top: 4px solid cyan;
-}
-
-.colonne .testo-e-button-div{
-
+  width: 100%;
 }
 
 .row::after{
@@ -79,6 +48,48 @@ section::after{
   display: table;
   clear: both;
 }
+
+.colonne{
+  float: left;
+  display: inline;
+  /* height: 200px; */
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.colonne .blocco-hiperlink{
+  border-top: 4px solid cyan;
+}
+
+
+
+
+
+.grey-block{
+  height: 100px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.grey-block .centratura-title h4{
+  line-height: 50px;
+}
+
+.secondo-blocco .colonne .blocco-img{
+  text-align: center;
+  padding: 10%;
+}
+
+
+
+.secondo-blocco .colonne .blocco-img #img-profile, #img-computer, #img-doc{
+  height: 150px;
+  width: auto;
+  display: inline-block;
+}
+
+
+
 
 footer{
   height: 300px;
