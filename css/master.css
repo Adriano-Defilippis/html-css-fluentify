@@ -23,6 +23,11 @@ section{
   border-bottom: 1px solid black;
 }
 
+.grey-block{
+  height: 100px;
+  background-color: lightgrey;
+}
+
 
 .colonne{
   float: left;
