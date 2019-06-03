@@ -14,8 +14,34 @@ header{
   background-color: white;
 }
 
+header .logo-link{
+  float: left;
+}
+
+nav{
+  display: inline-block;
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+}
+
+
+nav ul li{
+  display: inline-block;
+  float: left;
+  margin-right: 5%;
+}
+
+header .row .div-log-in{
+  display: inline-block;
+  float: left;
+}
+
 .content{
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 
 .layout-3colonne .colonne{
@@ -33,9 +59,20 @@ header{
 
 section{
   /* height: 250px; */
-  background: red;
-  border-bottom: 1px solid black;
+  /* background: red; */
+  /* border-bottom: 1px solid black; */
 }
+
+.section-blue, .section-blue a{
+  background-color: #0D325A;
+  color: white;
+}
+
+.quarto-blocco .img-size{
+  position: relative;
+  right: 20%;
+}
+
 
 section::after{
   content: "";
@@ -57,7 +94,7 @@ section::after{
   float: left;
   display: inline;
   /* height: 200px; */
-  background-color: brown;
+  /* background-color: brown; */
   border: 1px solid black;
 }
 
@@ -97,5 +134,4 @@ section::after{
 
 footer{
   height: 300px;
-  background: blue;
 }
