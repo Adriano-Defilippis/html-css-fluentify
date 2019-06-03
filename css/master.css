@@ -65,6 +65,17 @@ header .row .div-log-in{
   height: 420px;
 }
 
+.sesto-blocco{
+  text-align: center;
+}
+
+.sesto-blocco .colonne{
+  position: relative;
+  left: 50%;
+  width: 33%;
+  display: inline-block;
+}
+
 /* .primo-blocco::after{
   content: "";
   display: table;
