@@ -28,6 +28,10 @@ nav ul{
   float: left;
 }
 
+nav a{
+  text-decoration: none;
+
+}
 
 nav ul li{
   display: inline-block;
@@ -55,6 +59,17 @@ header .row .div-log-in{
 .layout-2colonne .colonne .colonna-img .img-size{
     float: right;
 }
+
+.primo-blocco{
+  background-image: url("box1-img.jpg");
+  height: 420px;
+}
+
+/* .primo-blocco::after{
+  content: "";
+  display: table;
+  clear: both;
+} */
 
 
 section{
@@ -95,7 +110,7 @@ section::after{
   display: inline;
   /* height: 200px; */
   /* background-color: brown; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .colonne .blocco-hiperlink{
