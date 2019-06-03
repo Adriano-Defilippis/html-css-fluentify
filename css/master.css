@@ -26,6 +26,10 @@ header{
   width: 50%;
 }
 
+.layout-2colonne .colonne .colonna-img .img-size{
+    float: right;
+}
+
 
 section{
   /* height: 250px; */
