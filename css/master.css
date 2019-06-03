@@ -18,9 +18,15 @@ header{
 }
 
 section{
-  height: 250px;
+  /* height: 250px; */
   background: red;
   border-bottom: 1px solid black;
+}
+
+section::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .row{
@@ -41,9 +47,20 @@ section{
 .colonne{
   float: left;
   width: 33%;
-  height: 200px;
+  /* height: 200px; */
   background-color: brown;
   border: 1px solid black;
+}
+
+.colonne .blocco-img{
+  /* width: 100px; */
+  /* height: 100px; */
+}
+
+
+
+.colonne .blocco-hiperlink{
+  border-top: 4px solid cyan;
 }
 
 .row::after{
